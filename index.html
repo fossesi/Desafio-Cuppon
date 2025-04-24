@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Cuppon</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+
+        <!--Navbar-->
+        <nav class="navbar fixed-top" style="background-color: #28A745">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo-white.png" width="86px" height="25px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">              
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                        <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--cards-->
+    <section>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!--card1-plumón-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                        <p class="card-text">Plumones Manolino</p>
+                        <p>9191 Avenida Vitacura, Chile</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">$45.990</small>
+                        <p>$22.990</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--card2-Entrada-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                        <p class="card-text">V for Vegan</p>
+                        <p>777 Jesse Pinkman, Chile</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <!--card3-Evaluación-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                        <p class="card-text">Clínica Dental Quijada</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <!--card4-colación-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                        <p class="card-text">Plumones Manolino</p>
+                        <p>9191 Avenida Vitacura, Chile</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">$45.990</small>
+                        <p>$22.990</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--card5-tickets-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">V for Vegan</p>
+                        <p>777 Jesse Pinkman, Chile</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <!--card6-san-pedro-->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/img/cupon-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color:#28A745">
+        <form class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto">
+                <h2>Recibe cupones en tu correo</h2>
+            </div>
+            <div class="col-auto">
+            <label class="visually-hidden" for="autoSizingInput">Name</label>
+            <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+            </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingInput">Name</label>
+                <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+            </div>
+        </form>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </section>
+
+    <footer>
+        
+    </footer>
+        
+</body>
+</html>
