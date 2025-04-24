@@ -16,11 +16,28 @@ h5 {
     font-weight: 300;
 }
 
+.card {
+    height: 279px;
+    width: 278px;
+    margin: 30px 21px;
+}
+
 .card-body p {
+    font-weight: 300;
     color: #707070;
 }
 
-.card-footer p {
+.card-footer {
+    text-align: right;
+}
+
+.card-footer small {
+    font-size: 16pt;
+}
+
+.card-footer span {
     font-weight: 500;
+    font-size: 20pt;
     color: #28A745;
 }
+
