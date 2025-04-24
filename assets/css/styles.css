@@ -16,10 +16,10 @@ h5 {
     font-weight: 300;
 }
 
-.card {
-    height: 279px;
+.card-body {
+    height: 119px;
     width: 278px;
-    margin: 30px 21px;
+    margin: 80px 21px;
 }
 
 .card-body p {
@@ -33,6 +33,7 @@ h5 {
 
 .card-footer small {
     font-size: 16pt;
+    color: #707070;
 }
 
 .card-footer span {
