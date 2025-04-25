@@ -8,18 +8,31 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Roboto;
+}
+
+nav {
+    background-color: #28A745
 }
 
 h5 {
     font-weight: 300;
 }
 
+.card {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
 .card-body {
-    height: 119px;
+    height: 80px;
     width: 278px;
-    margin: 80px 21px;
+    margin: auto;
 }
 
 .card-body p {
@@ -27,18 +40,48 @@ h5 {
     color: #707070;
 }
 
-.card-footer {
+.col-4 {
+    padding-right: 0%;
+    padding-left: 10px;
     text-align: right;
 }
 
-.card-footer small {
+.precio-anterior {
+    width: 60pt;
+    text-align: right;
+    font-weight: 300;
     font-size: 16pt;
     color: #707070;
 }
 
-.card-footer span {
+.col-6 {
+    padding-right: 0%;
+    padding-left: 10px;
+    text-align: right;
+}
+
+.precio-oferta {
+    width: 74pt;
+    text-align: right;
     font-weight: 500;
     font-size: 20pt;
     color: #28A745;
+}
+
+.datos-personales {
+    background-color:#28A745;
+    margin-top: 100pt;
+}
+
+.datos-personales h2 {
+        text-align: center;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82pt;
+    height: 24pt;
 }
 
