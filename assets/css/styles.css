@@ -20,6 +20,10 @@ nav {
     background-color: #28A745
 }
 
+.navbar-toggler {
+    border-color: #FFFFFF80;
+}
+
 h5 {
     font-weight: 300;
 }
@@ -40,24 +44,27 @@ h5 {
     color: #707070;
 }
 
+.card-footer {
+    justify-content: center;
+    align-items: center;
+}
+
 .col-4 {
-    padding-right: 0%;
-    padding-left: 10px;
+    margin-top: 4pt;
     text-align: right;
 }
 
+.col-6 {
+    width: 100pt;
+    align-content: end;
+}
+
 .precio-anterior {
-    width: 60pt;
+    width: 80pt;
     text-align: right;
     font-weight: 300;
     font-size: 16pt;
     color: #707070;
-}
-
-.col-6 {
-    padding-right: 0%;
-    padding-left: 10px;
-    text-align: right;
 }
 
 .precio-oferta {
@@ -69,19 +76,57 @@ h5 {
 }
 
 .datos-personales {
+    height: 200pt;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#28A745;
-    margin-top: 100pt;
+    padding-top: 10pt;
+    margin-top: 70pt;
+    margin-bottom: 10pt;
+    padding-bottom: 20pt;
 }
 
-.datos-personales h2 {
-        text-align: center;
+form {
+    justify-content: center;
+}
+
+legend {
+    margin-top: 10pt;
+    font-size: 21pt;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.datos-personales input {
+    font-weight: 300;
+    font-size: 16pt;
+}
+
+.datos-personales button {
+    width: 110pt;
+    font-size: 16pt;
+    height: 40pt;
+    font-weight: 500;
+    color: #212529;
 }
 
 footer img {
     display: block;
+    border-top: 24pt;
     margin-left: auto;
     margin-right: auto;
     width: 82pt;
     height: 24pt;
 }
 
+footer p {
+    text-align: center;
+    justify-content: center;
+    width: 200pt;
+    margin-left: auto;
+    margin-right: auto;
+    color: #707070;
+    margin-bottom: 20pt;
+}
