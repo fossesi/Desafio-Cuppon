@@ -29,13 +29,15 @@ h5 {
 }
 
 .card {
+    width: 250pt;
     margin-top: 80px;
     margin-bottom: 40px;
+    margin-left: 20pt;
 }
 
 .card-body {
     height: 80px;
-    width: 278px;
+    width: 250pt;
     margin: auto;
 }
 
@@ -45,22 +47,23 @@ h5 {
 }
 
 .card-footer {
-    justify-content: center;
+    height: 50pt;
     align-items: center;
+    padding: 0%;
 }
 
-.col-4 {
+small {
     margin-top: 4pt;
     text-align: right;
-}
-
-.col-6 {
-    width: 100pt;
+    width: 260pt;
     align-content: end;
 }
 
 .precio-anterior {
     width: 80pt;
+    padding-left: 10pt;
+    margin-top: 12pt;
+    margin-bottom: 0%;
     text-align: right;
     font-weight: 300;
     font-size: 16pt;
@@ -69,6 +72,9 @@ h5 {
 
 .precio-oferta {
     width: 74pt;
+    margin-top: 10pt;
+    margin-bottom: 0%;
+    padding-left: 10pt;
     text-align: right;
     font-weight: 500;
     font-size: 20pt;
